@@ -5,7 +5,7 @@ public class RadioWithParametrTest {
 
 
     @Test
-    public void prevCarStTransitLover_9() {
+    public void prevCarStTransitLover_8() {
         RadioWithParametr radio = new RadioWithParametr(8);
         radio.setCarrentStation(8);
         radio.prev();
@@ -25,7 +25,7 @@ public class RadioWithParametrTest {
     }
 
     @Test
-    public void prevCarStTransitLover__Limit_1() {
+    public void prevCarStTransitLover_Limit_1() {
         RadioWithParametr radio = new RadioWithParametr(8);
         radio.setCarrentStation(2);
         radio.prev();
